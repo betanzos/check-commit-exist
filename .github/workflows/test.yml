@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v2
+      with:
+        ref: master
+        fetch-depth: 0
+
+    - name: Success. Commit exists
+      uses: ./
+      with:
+        # Initial commit. Must be exists
+        commit: '6288a6180015f432257a32e415da166a855c234e'
+
+    - name: Fail. Commit not exists
+      uses: ./
+      with:
+        commit: '0000000000000000000000000000000000000000'
+        invert: 'true'

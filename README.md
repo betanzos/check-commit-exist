@@ -1,4 +1,7 @@
 # Check Commit Exists
+
+![CI](https://github.com/betanzos/check-commit-exist/workflows/CI/badge.svg)
+
 This action check if a commit (see ...) exists in the current fetched history of your repository
 and fail if not.
 

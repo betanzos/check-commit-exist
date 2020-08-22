@@ -1,0 +1,14 @@
+name: 'Check Commit Exists'
+author: 'Eduardo Betanzos'
+description: 'Check if a commit exists in the current repository history'
+inputs:
+  commit:
+    description: 'SHA of the commit to check'
+    required: true
+  invert:
+    description: 'Inverts the action result'
+    required: false
+    default: 'false'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
