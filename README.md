@@ -1,4 +1,4 @@
-# Check Commit Exists
+# Check Commit Exist
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![CI](https://github.com/betanzos/check-commit-exist/workflows/CI/badge.svg)
 
