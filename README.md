@@ -1,6 +1,6 @@
 # Check Commit Exists
 
-![CI](https://github.com/betanzos/check-commit-exist/workflows/CI/badge.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![CI](https://github.com/betanzos/check-commit-exist/workflows/CI/badge.svg)
 
 This action check if a commit (see [`commit` param](#usage)) exists in the current fetched history of your repository.
 
