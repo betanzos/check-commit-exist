@@ -22,7 +22,7 @@ If commit was not found the job using the action finish with status `failure` (s
     # REQUIRED
     commit: ${{ github.sha }}
 
-    # Inverts de action job finish status
+    # Inverts the action job finish status
     # (if `success` will be `failure` and if `failure` will be `success`).
     # Can be one of: 'true' or 'false'. Wrong values causes to use default.
     invert: 'false'
