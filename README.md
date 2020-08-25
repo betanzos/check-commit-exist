@@ -1,9 +1,14 @@
 # Check Commit Exist
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?logo=apache&logoColor=d22128&labelColor=262b31)](https://opensource.org/licenses/Apache-2.0)
 ![CI](https://github.com/betanzos/check-commit-exist/workflows/CI/badge.svg)
-[![Action type](https://img.shields.io/badge/Docker%20action-gray?logo=docker)](https://docs.github.com/en/actions/creating-actions/about-actions#types-of-actions)
-[![Supported runner](https://img.shields.io/badge/ONLY%20works%20in%20Linx%20runners-red?logo=linux&logoColor=black)](https://docs.github.com/en/actions/creating-actions/about-actions#docker-container-actions)
+[![Action type](https://img.shields.io/badge/JS%20action-262b31?logo=javascript&logoColor=f7df1e)](https://docs.github.com/en/actions/creating-actions/about-actions#types-of-actions)
+
+**Supported runners**
+
+[![Supported runner](https://img.shields.io/badge/Linux-262b31?style=for-the-badge&logo=linux&logoColor=fcc624)](https://docs.github.com/en/actions/creating-actions/about-actions#docker-container-actions)
+[![Supported runner](https://img.shields.io/badge/Windows-262b31?style=for-the-badge&logo=windows&logoColor=0078d6)](https://docs.github.com/en/actions/creating-actions/about-actions#docker-container-actions)
+[![Supported runner](https://img.shields.io/badge/MacOS-262b31?style=for-the-badge&logo=apple&logoColor=999)](https://docs.github.com/en/actions/creating-actions/about-actions#docker-container-actions)
 
 This action check if a commit (see [`commit` param](#usage)) exists in the current fetched history of your repository.
 
